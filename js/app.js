@@ -1,6 +1,6 @@
 "use strict";
 const $=id=>document.getElementById(id);
-const horarios={'08-12':'8:00 a. m. – 12:00 m.','12-16':'12:00 m. – 4:00 p. m.'};
+const horarios={'08-12':'8:00 a. m. – 12:40 p. m.','12-16':'12:40 p. m. – 4:20 p. m.'};
 let turno='todos',seleccion=['A9'],zoom=1;
 const calibrando=new URLSearchParams(location.search).has('calibrar');
 const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
